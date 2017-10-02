@@ -1,0 +1,472 @@
+{
+  "Categories": [
+    {
+      "categoryId": 185,
+      "visibleOnSite": true,
+      "name": "Щетки",
+      "description": "В этой категории отображаются все щетки",
+      "createAuthor": "Тихомир Тихомиров",
+      "createDate": "00:00 03.02.2026",
+      "categoryAttr": [],
+      "categoryDesc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos earum quidem ratione quas nam eligendi tempora vel voluptate quibusdam soluta quod ullam porro similique repellendus nemo, qui cum possimus ad!",
+      "items": []
+    },
+    {
+      "categoryId": 14,
+      "visibleOnSite": true,
+      "name": "Масла",
+      "description": "В этой категории отображаются все масла",
+      "createAuthor": "Андрей Чирва",
+      "createDate": "14:30 13.07.2017",
+      "categoryAttr": [],
+      "categoryDesc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos earum quidem ratione quas nam eligendi tempora vel voluptate quibusdam soluta quod ullam porro similique repellendus nemo, qui cum possimus ad!",
+      "items": []
+    },
+    {
+      "categoryId": 190,
+      "visibleOnSite": true,
+      "name": "Моторы",
+      "description": "В этой категории отображаются все моторы",
+      "createAuthor": "Андрей Андреевич",
+      "createDate": "14:30 13.07.2017",
+      "categoryAttr": [],
+      "categoryDesc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos earum quidem ratione quas nam eligendi tempora vel voluptate quibusdam soluta quod ullam porro similique repellendus nemo, qui cum possimus ad!",
+      "items": []
+    },
+    {
+      "categoryId": 15,
+      "visibleOnSite": true,
+      "name": "Лампы",
+      "description": "В этой категории отображаются все лампы",
+      "createAuthor": "Сергей Тихомиров",
+      "createDate": "4:31 03.02.2016",
+      "categoryAttr": [],
+      "categoryDesc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos earum quidem ratione quas nam eligendi tempora vel voluptate quibusdam soluta quod ullam porro similique repellendus nemo, qui cum possimus ad!",
+      "items": []
+    },
+    {
+      "categoryId": 415,
+      "visibleOnSite": true,
+      "name": "Колеса",
+      "description": "В этой категории отображаются все колеса",
+      "createAuthor": "Сергей Сергеев",
+      "createDate": "4:31 03.02.1998",
+      "categoryAttr": ["2","3","4"],
+      "categoryDesc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos earum quidem ratione quas nam eligendi tempora vel voluptate quibusdam soluta quod ullam porro similique repellendus nemo, qui cum possimus ad!",
+      "items": []
+    }
+  ],
+  "Catalogs": [
+    {
+      "name": "Каталог 1",
+      "units": [
+        {
+          "name": "unit 1",
+          "children": [
+            {
+              "name": "unit 1.1",
+              "children": [
+                {
+                  "name": "unit 1.1.1",
+                  "children": [],
+                  "categories": []
+                },
+                {
+                  "name": "unit 1.1.2",
+                  "children": [],
+                  "categories": []
+                }
+              ],
+              "categories": [190,15,415]
+            },
+            {
+              "name": "unit 1.2",
+              "children": [],
+              "categories": []
+            },
+            {
+              "name": "unit 1.3",
+              "children": [],
+              "categories": []
+            }
+          ],
+          "categories": []
+        },
+        {
+          "name": "unit 2",
+          "children": [],
+          "categories": []
+        },
+        {
+          "name": "unit 3",
+          "children": [],
+          "categories": []
+        },
+        {
+          "name": "unit 4",
+          "children": [],
+          "categories": []
+        },
+        {
+          "name": "unit 5",
+          "children": [],
+          "categories": []
+        }
+      ],
+      "related": [190,15,415]
+    },
+    {
+      "name": "Каталог 2",
+      "units": [
+        {
+          "name": "unit 1",
+          "children": [
+            {
+              "name": "unit 1.1",
+              "children": [],
+              "categories": []
+            },
+            {
+              "name": "unit 1.2",
+              "children": [],
+              "categories": []
+            },
+            {
+              "name": "unit 1.3",
+              "children": [],
+              "categories": []
+            }
+          ],
+          "categories": []
+        },
+        {
+          "name": "unit 20",
+          "children": [],
+          "categories": []
+        },
+        {
+          "name": "unit 30",
+          "children": [],
+          "categories": []
+        },
+        {
+          "name": "unit 40",
+          "children": [],
+          "categories": []
+        },
+        {
+          "name": "unit 50",
+          "children": [],
+          "categories": []
+        }
+      ],
+      "related":[]
+    }
+  ],
+  "Attributes": {
+    "1": {"name": "Тип масла",
+      "boundType": "Одно значение",
+      "createdBy":"Someone",
+      "id":"1",
+      "createdDate":"12.12.12",
+     "values": [{"name": "5W-40","createdBy": "John Doe","createdDate": "19.12.1919","relatedProducts": 40 },{"name": "15W-40","createdBy": "Duke Nukem","createdDate": "10.01.1980", "relatedProducts": 41},{"name": "25W-40","createdBy": "Hydralisk","createdDate": "10.01.1940","relatedProducts": 42}]
+    },
+    "2":{"name": "Вязкость",
+      "createdBy":"Someone",
+      "id":"2",
+      "boundType": "Одно значение",
+      "createdDate":"11.11.11",
+      "values": [{"name": "115W-40","createdBy": "John Doe","createdDate": "19.12.1919","relatedProducts": 65 },{"name": "15W22-40","createdBy": "Duke Nukem","createdDate": "10.01.1980", "relatedProducts": 35},{"name": "25W65-40","createdBy": "Hydralisk","createdDate": "10.01.1940","relatedProducts": 15}]
+     },
+     "3":{"name": "Комплектность",
+      "createdBy":"Someone",
+      "id":"3",
+      "boundType": "Множественное значение",
+      "createdDate":"10.10.10",
+      "values": [{"name": "Полная","createdBy": "John Doe","createdDate": "19.12.1919","relatedProducts": 25 },{"name": "Частичная","createdBy": "Duke Nukem","createdDate": "10.01.1980", "relatedProducts": 85},{"name": "Дополнительная","createdBy": "Hydralisk","createdDate": "10.01.1940","relatedProducts": 95}]
+     },
+     "4":{"name": "Длина",
+      "boundType":"Одно значение",
+      "id":"4",
+      "createdBy":"Someone",
+      "createdDate":"01.01.01",
+      "values": [{"name": "66W-40","createdBy": "John Doe","createdDate": "19.12.1919","relatedProducts": 3 },{"name": "105W-40","createdBy": "Duke Nukem","createdDate": "10.01.1980", "relatedProducts": 4},{"name": "250W-40","createdBy": "Hydralisk","createdDate": "10.01.1940","relatedProducts": 5}]
+     }
+    },
+  "Goods": [
+    {
+      "vendorCode": "OC47",
+      "id": 1,
+      "brand": "Mahle/Knecht",
+      "name": "Фильтр масляный",
+      "paramQty": "4/15",
+      "autoQty": "34",
+      "crossesQty": "15",
+      "relatedCategory": 415,
+      "author": "Lorem Ipsum",
+      "createDate": "14:30 13.07.2017",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi error, maiores unde laudantium, a ex possimus quis esse officia, temporibus dolorum sunt consequuntur voluptates et praesentium iusto fugit quo animi.",
+      "vendorCodes": [{
+        "code": 12384456,
+        "codeType": "Короткий",
+        "codeAuthor": "Vasya Petrov",
+        "createDate": "03.02.1998",
+        "mainVendorCode": true
+      },
+      {
+        "code": 623454321,
+        "codeType": "Полный",
+        "codeAuthor": "Petr Sagan",
+        "createDate": "03.02.2017",
+        "mainVendorCode": false
+      }]
+    },
+    {
+      "vendorCode": "GC47-BA",
+      "id": 2,
+      "brand": "Bosch",
+      "name": "Колодки тормозные",
+      "paramQty": "4/15",
+      "autoQty": "34",
+      "crossesQty": "15",
+      "relatedCategory": null,
+      "author": "Lorem Ipsum",
+      "createDate": "14:30 13.07.2017",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi error, maiores unde laudantium, a ex possimus quis esse officia, temporibus dolorum sunt consequuntur voluptates et praesentium iusto fugit quo animi.",
+      "vendorCodes": [{
+        "code": 1237123456,
+        "codeType": "Короткий",
+        "codeAuthor": "Vasya Petrov",
+        "createDate": "03.02.1998",
+        "mainVendorCode": true
+      },
+      {
+        "code": 12384456,
+        "codeType": "Полный",
+        "codeAuthor": "Petr Sagan",
+        "createDate": "03.02.2017",
+        "mainVendorCode": false
+      },
+      {
+        "code": 3433654321,
+        "codeType": "Полный",
+        "codeAuthor": "Petr Sagan",
+        "createDate": "03.02.2017",
+        "mainVendorCode": false
+      }]
+    },
+    {
+      "vendorCode": "ORR-HG",
+      "id": 3,
+      "brand": "Mahle/Knecht",
+      "name": "Покрышки",
+      "paramQty": "4/15",
+      "autoQty": "34",
+      "crossesQty": "15",
+      "relatedCategory": null,
+      "author": "Lorem Ipsum",
+      "createDate": "14:30 13.07.2017",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi error, maiores unde laudantium, a ex possimus quis esse officia, temporibus dolorum sunt consequuntur voluptates et praesentium iusto fugit quo animi.",
+      "vendorCodes": [{
+        "code": 17686723456,
+        "codeType": "Короткий",
+        "codeAuthor": "Vasya Petrov",
+        "createDate": "03.02.1998",
+        "mainVendorCode": true
+      },
+      {
+        "code": 6543212351,
+        "codeType": "Полный",
+        "codeAuthor": "Petr Sagan",
+        "createDate": "03.02.2017",
+        "mainVendorCode": false
+      },
+      {
+        "code": 65123214321,
+        "codeType": "Полный",
+        "codeAuthor": "Petr Sagan",
+        "createDate": "03.02.2017",
+        "mainVendorCode": false
+      }]
+    },
+    {
+      "vendorCode": "PGP-D2",
+      "id": 4,
+      "brand": "Mahle/Knecht",
+      "name": "Фары",
+      "paramQty": "4/15",
+      "autoQty": "34",
+      "crossesQty": "15",
+      "relatedCategory": null,
+      "author": "Lorem Ipsum",
+      "createDate": "14:30 13.07.2017",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi error, maiores unde laudantium, a ex possimus quis esse officia, temporibus dolorum sunt consequuntur voluptates et praesentium iusto fugit quo animi.",
+      "vendorCodes": [{
+        "code": 12123456232,
+        "codeType": "Короткий",
+        "codeAuthor": "Vasya Petrov",
+        "createDate": "03.02.1998",
+        "mainVendorCode": true
+      },
+      {
+        "code": 634354321976,
+        "codeType": "Полный",
+        "codeAuthor": "Petr Sagan",
+        "createDate": "03.02.2017",
+        "mainVendorCode": false
+      },
+      {
+        "code": 65432234991,
+        "codeType": "Полный",
+        "codeAuthor": "Petr Sagan",
+        "createDate": "03.02.2017",
+        "mainVendorCode": false
+      }]
+    },
+    {
+      "vendorCode": "RE65-C",
+      "id": 5,
+      "brand": "Mahle/Knecht",
+      "name": "Коврик",
+      "paramQty": "4/15",
+      "autoQty": "34",
+      "crossesQty": "15",
+      "relatedCategory": null,
+      "author": "Lorem Ipsum",
+      "createDate": "14:30 13.07.2017",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi error, maiores unde laudantium, a ex possimus quis esse officia, temporibus dolorum sunt consequuntur voluptates et praesentium iusto fugit quo animi.",
+      "vendorCodes": [{
+        "code": 12345666,
+        "codeType": "Короткий",
+        "codeAuthor": "Vasya Petrov",
+        "createDate": "03.02.1998",
+        "mainVendorCode": true
+      },
+      {
+        "code": 64542133211,
+        "codeType": "Полный",
+        "codeAuthor": "Petr Sagan",
+        "createDate": "03.02.2017",
+        "mainVendorCode": false
+      },
+      {
+        "code": 6543324289921,
+        "codeType": "Полный",
+        "codeAuthor": "Petr Sagan",
+        "createDate": "03.02.2017",
+        "mainVendorCode": false
+      }]
+    },
+    {
+      "vendorCode": "DLP-488F",
+      "id": 6,
+      "brand": "Mahle/Knecht",
+      "name": "Фильтр масляный",
+      "paramQty": "4/15",
+      "autoQty": "34",
+      "crossesQty": "15",
+      "relatedCategory": null,
+      "author": "Lorem Ipsum",
+      "createDate": "14:30 13.07.2017",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi error, maiores unde laudantium, a ex possimus quis esse officia, temporibus dolorum sunt consequuntur voluptates et praesentium iusto fugit quo animi.",
+      "vendorCodes": [{
+        "code": 124443456,
+        "codeType": "Короткий",
+        "codeAuthor": "Vasya Petrov",
+        "createDate": "03.02.1998",
+        "mainVendorCode": true
+      },
+      {
+        "code": 6543555521,
+        "codeType": "Полный",
+        "codeAuthor": "Petr Sagan",
+        "createDate": "03.02.2017",
+        "mainVendorCode": false
+      },
+      {
+        "code": 654378787821,
+        "codeType": "Полный",
+        "codeAuthor": "Petr Sagan",
+        "createDate": "03.02.2017",
+        "mainVendorCode": false
+      }]
+    },
+    {
+      "vendorCode": "546F84RT",
+      "id": 7,
+      "brand": "Mahle/Knecht",
+      "name": "Фильтр масляный",
+      "paramQty": "4/15",
+      "autoQty": "34",
+      "crossesQty": "15",
+      "relatedCategory": null,
+      "author": "Lorem Ipsum",
+      "createDate": "14:30 13.07.2017",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi error, maiores unde laudantium, a ex possimus quis esse officia, temporibus dolorum sunt consequuntur voluptates et praesentium iusto fugit quo animi.",
+      "vendorCodes": [{
+        "code": 12312345456,
+        "codeType": "Короткий",
+        "codeAuthor": "Vasya Petrov",
+        "createDate": "03.02.1998",
+        "mainVendorCode": true
+      },
+      {
+        "code": 651,
+        "codeType": "Полный",
+        "codeAuthor": "Petr Sagan",
+        "createDate": "03.02.2017",
+        "mainVendorCode": false
+      },
+      {
+        "code": 654324559901,
+        "codeType": "Полный",
+        "codeAuthor": "Petr Sagan",
+        "createDate": "03.02.2017",
+        "mainVendorCode": false
+      }]
+    },
+    {
+      "vendorCode": "48JFK",
+      "id": 8,
+      "brand": "Mahle/Knecht",
+      "name": "Фильтр масляный",
+      "paramQty": "4/15",
+      "autoQty": "34",
+      "crossesQty": "15",
+      "relatedCategory": null,
+      "author": "Lorem Ipsum",
+      "createDate": "14:30 13.07.2017",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi error, maiores unde laudantium, a ex possimus quis esse officia, temporibus dolorum sunt consequuntur voluptates et praesentium iusto fugit quo animi.",
+      "vendorCodes": [{
+        "code": 1230000456,
+        "codeType": "Короткий",
+        "codeAuthor": "Vasya Petrov",
+        "createDate": "03.02.1998",
+        "mainVendorCode": true
+      },
+      {
+        "code": 654867800321,
+        "codeType": "Полный",
+        "codeAuthor": "Petr Sagan",
+        "createDate": "03.02.2017",
+        "mainVendorCode": false
+      },
+      {
+        "code": 206540000321,
+        "codeType": "Полный",
+        "codeAuthor": "Petr Sagan",
+        "createDate": "03.02.2017",
+        "mainVendorCode": false
+      }]
+    }
+  ],
+  "Brands": [
+    "Mahle/Knecht",
+    "Bosch",
+    "Exide",
+    "Varta",
+    "Hankook",
+    "Goodyear",
+    "Shell"
+  ]
+}
